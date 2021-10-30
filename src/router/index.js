@@ -13,8 +13,8 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'Casos',
+    component: Casos
   },
   {
     path: '/pokemon/:pokemon',

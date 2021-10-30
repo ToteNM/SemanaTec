@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <h2>Esta es una encuasta para que les alumnes del Tec de Monterrey contesten si dsean regresar a clases presenciales</h2>
+    <h2>Esta es una encuesta para que les alumnes del Tec de Monterrey contesten si dsean regresar a clases presenciales</h2>
     <v-card style="padding:40px;">
     
 
