@@ -40,6 +40,7 @@ export default {
         async cargarDatos(){
             this.dates = []
             this.values = []
+            this.nombres = []
             await this.axios.get('https://storage.googleapis.com/covid19-open-data/v3/location/'+this.pais+'.json').then((response)=>{
                 console.log(response);
                 response.data.columns.forEach(element =>{
