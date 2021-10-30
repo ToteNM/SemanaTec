@@ -17,6 +17,11 @@ const routes = [
     component: Casos
   },
   {
+    path: '/Home',
+    name: 'Home',
+    component: Home
+  },
+  {
     path: '/pokemon/:pokemon',
     name: 'Pokemon',
     component: Pokemon
